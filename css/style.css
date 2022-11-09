@@ -1,0 +1,184 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #6D6D6D;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 18px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row__area {
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100vh;
+    height: 70vh;
+}
+
+.row__btns {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btns__label {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.btns__input {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btns__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons__ready {
+    margin-right: 20px;
+    border: 2px solid rgb(0, 72, 0);
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.buttons__ready:hover {
+    background-color: rgba(0, 128, 0, 0.574);
+}
+
+.buttons__reaction {
+    border: 2px solid rgb(97, 0, 0);
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.buttons__reaction:hover {
+    background-color: rgba(255, 0, 0, 0.514);
+}
+
+.timer__result{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    color: red;
+}
+.area__object{
+    border-radius: 50%;
+}
